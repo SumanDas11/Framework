@@ -18,7 +18,7 @@ public class BrowserFactory {
 		}
 
 		driver.manage().window().maximize();
-		//checking Git operations
+		//checking Git operations with author sumandas.aec@gmail.com
 		
 		driver.get(appURL);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

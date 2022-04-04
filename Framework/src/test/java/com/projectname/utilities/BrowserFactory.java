@@ -18,6 +18,7 @@ public class BrowserFactory {
 		}
 
 		driver.manage().window().maximize();
+		//checking Git operations
 		
 		driver.get(appURL);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
